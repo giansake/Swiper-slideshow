@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+
+.swiper-slide {
+  border: 2px solid black;
+}
+
+.carousel-section {
+  border: 8px solid violet;
+  padding-bottom: 3em;
+  position: relative;
+}
+
+.curstom-circle {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.carousel-section > .swiper-pagination > .custom-circle {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.navigation {
+  border: 1px solid blue;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
